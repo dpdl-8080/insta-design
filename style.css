@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.links {
+    width: 19%;
+    border-right: 0.5px solid rgba(222, 74, 99, 0.373);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1.5rem;
+    justify-content: space-around;
+} 
+
+.content {
+    width: 66%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.stories {
+    display: flex;
+    gap: 1.5rem;
+margin-top: 2rem;
+margin-bottom: 1rem;
+
+}
+
+.story-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.story-text {
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.suggestion {
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+.user-info {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.user-info> :nth-child(3) {
+    color: #0095F6;
+    font-size: 12px;
+    margin-left: 5rem;
+}
+
+.suggested-texts {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+.user-texts > :nth-child(1) {
+    color: white;
+    font-size: 14px;
+}
+.user-texts > :nth-child(2) {
+    color: #A8A8A8;
+    font-size: 14px;
+}
+
+.suggested-texts > :nth-child(2) {
+    color: white;
+    font-size: 12px;
+}
+.suggested-texts > :nth-child(1) {
+    color: #A8A8A8;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.info {
+    color: #737373;
+    font-size: 12px;
+}
+
+.copyright {
+    color: #737373;
+    font-size: 12px;
+    margin-top: -7px;
+}
+
+.suggested {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.suggestion .user-info .profile-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.user-texts {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+
+
+.post {
+    width: 500px;
+    height: 630px;
+}
+
+.title {
+    color: azure;
+    font-size: 1.5rem;
+}
+
+i {
+    color: white;
+    font-size: 20px;
+}
+
+.subtext {
+    color: white;
+}
+
+.profile-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.link-child {
+    display: flex;
+    gap: 17px;
+    
+}
+
+.main-links {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: -2.5rem;
+}
+
+.extra-links {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.img {
+    width: 130px;
+    height: 40px;
+    
+}
